@@ -1,6 +1,8 @@
+import React from "react";
 import burgerImage from "../../../public/Images/burgerImage.png";
 import User from "./User";
-import UserClass from "./UserClass"
+import UserClass from "./UserClass";
+
 const About = () => {
   return (
     <div className="about-container">
@@ -15,9 +17,12 @@ const About = () => {
       <div className="about-right">
         <img src={burgerImage} alt="Food Image" />
       </div>
-      <UserClass name ={"Shubham Sharma(class)"} />
 
-      <User name = {"Shubham Sharma(function)"} />
+      {/* Class component */}
+      <UserClass name="Shubham Sharma (class)" location="Chicago" />
+
+      {/* Functional component */}
+      <User name="Shubham Sharma (function)" />
     </div>
   );
 };
