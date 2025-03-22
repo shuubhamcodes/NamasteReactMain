@@ -5,11 +5,11 @@ const Footer = () => {
     <div className="footer">
       Created By
       <i className="fa-solid fa-heart"></i>
-      <a href="https://www.linkedin.com/in/chetannada/" target="_blank" title="Chetan Nada's Linkedin Profile">
-        Chetan Nada
+      <a href="https://www.linkedin.com/in/shubhamsharmacodes/" target="_blank" title="Shubham Sharma's Linkedin Profile">
+        Shubham Sharma
       </a>
       <i className="fa-solid fa-copyright"></i>
-      {year}
+      {2025}
       <strong>
         Food<span>Fire</span>
       </strong>
